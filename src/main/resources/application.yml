@@ -1,0 +1,32 @@
+debug: false
+spring:
+  main:
+    banner-mode: 'off'
+  application:
+    name: receita-batch
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+  flyway:
+    enabled: false
+api:
+  version: 1
+info:
+  app:
+    name: receita-batch
+logging:
+  level:
+    root: ${LOG_LEVEL:@LOG_LEVEL@}
+    WireMock: WARN
+rec-dir:
+  rec-out:  ${REC_OUT:@REC_OUT@}
+  rec-in:  ${REC_IN:@REC_IN@}
+  rec-erro:  ${REC_ERRO:@REC_ERRO@}
+  rec-process:  ${REC_PROCESS:@REC_PROCESS@}
+receita:
+  sec:
+    dependencias:
+      name:
+        file-in: ${REC_NAME_FILE_IN:@REC_NAME_FILE_IN@}
+        file-out: ${REC_NAME_FILE_OUT:@REC_NAME_FILE_OUT@}
