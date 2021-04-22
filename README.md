@@ -8,6 +8,8 @@ Repositório da aplicação responsável pelo execução de Jobs
 
 ## Comando de execução
 
+mvn clean install -DskipTests
+
 Tem que ser excutado no Target:
 
 cd target
