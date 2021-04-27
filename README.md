@@ -20,9 +20,9 @@ Importante ter job 01 nomedoarquivo
 
 java -jar receita-batch-0.0.1.jar 01 receita.csv
 
-		##REC_OUT: D:/local/home/rec/out 
-		##REC_IN: D:/local/home/rec/in
-		##REC_ERRO: D:/local/home/rec/erro
-		##REC_PROCESS: D:/local/home/rec/process 
-		##REC_NAME_FILE_IN: receita.csv 
-		##REC_NAME_FILE_OUT: receitaOut.csv 
+		##REC_OUT: D:/local/home/rec/out (Diretorio de saida do arquivo)
+		##REC_IN: D:/local/home/rec/in   (Diretorio de entrada do arquivo)
+		##REC_ERRO: D:/local/home/rec/erro (Diretorio de erro do arquivo, caso ocorra erro no processo)
+		##REC_PROCESS: D:/local/home/rec/process (Diretorio de arquivo processados)
+		##REC_NAME_FILE_IN: receita.csv (nome do arquivo de entreda)
+		##REC_NAME_FILE_OUT: receitaOut.csv (nome do arquivo de saida)
