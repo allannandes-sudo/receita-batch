@@ -37,6 +37,7 @@ public class ReceitaBatchApplication implements CommandLineRunner {
 		processo.run(args);
 
 		log.info("Processamento executado com sucesso");
+		SpringApplication.exit(appContext);
 	}
 
 	public BaseJob getInstace(String... args) {
